@@ -3,10 +3,19 @@
     height: 740px;
     background-image: url(../../images/sprint-3-images/cover-trains.jpg);
     display: flex;
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
     background-position: center center;
+}
+
+@media (max-width: 1024px) {
+    .cover {
+        width: 100vw;
+        margin: 0 -48px;
+        height: 640px;
+    }
 }

@@ -6,3 +6,9 @@
     margin: 0 auto;
     margin-bottom: 32px;
 }
+
+@media screen (max-width: 1024px) {
+    .lead__title {
+        font-size: 
+    }
+}

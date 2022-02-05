@@ -6,3 +6,9 @@
     margin: 0 auto;
     margin-bottom: 64px;
 }
+
+@media (max-width: 1024px) {
+    .lead__subtitle {
+        margin-bottom: 56px;
+    }
+}
