@@ -6,3 +6,9 @@
     color: #FFFFFF;
     padding: 28px 48px 24px;
 }
+
+@media (max-width: 768px) {
+    .page {
+        padding: 28px 24px 24px; 
+    }
+}

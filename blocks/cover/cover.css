@@ -19,3 +19,10 @@
         height: 640px;
     }
 }
+
+@media (max-width: 768px) {
+    .cover {
+        height: 480px;
+        margin: 0 -24px;
+    }
+}

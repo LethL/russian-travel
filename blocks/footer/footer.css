@@ -4,3 +4,9 @@
     justify-content: space-between;
     height: 18px;
 }
+
+@media (max-width: 768px) {
+    .footer {
+        padding-top: 88px;
+    }
+}
