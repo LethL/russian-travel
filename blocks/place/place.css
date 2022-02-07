@@ -25,3 +25,11 @@
         margin-bottom: 74px;
     }
 }
+
+@media (max-width: 320px) {
+    .place {
+        grid-template-columns: 100%;
+        gap: 32px;
+        margin-bottom: 50px;
+    }
+}

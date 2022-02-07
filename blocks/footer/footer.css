@@ -10,3 +10,11 @@
         padding-top: 88px;
     }
 }
+
+@media (max-width: 320px) {
+    .footer {
+        padding-top: 66px;
+        height: 310px;
+        flex-direction: column;
+    }
+}

@@ -7,3 +7,9 @@
         padding-top: 88px;
     }
 }
+
+@media (max-width: 320px) {
+    .photo-grid {
+        padding-top: 64px;
+    }
+}
