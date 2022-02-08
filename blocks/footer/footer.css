@@ -1,5 +1,5 @@
 .footer {
-    padding-top: 92px;
+    padding: 92px 48px 24px;
     display: flex;
     justify-content: space-between;
     height: 18px;
@@ -7,7 +7,7 @@
 
 @media (max-width: 768px) {
     .footer {
-        padding-top: 88px;
+        padding: 88px 24px 24px;
     }
 }
 
@@ -16,5 +16,11 @@
         padding-top: 66px;
         height: 310px;
         flex-direction: column;
+    }
+}
+
+@media (max-width: 320px) {
+    .footer {
+        padding: 64px 100px 24px 16px;
     }
 }
