@@ -1,30 +1,14 @@
 .cover {
     padding: 92px 48px 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     position: relative;
-    height: 740px;
+    min-height: 740px;
     cursor: pointer;
-}
-
-.cover:hover::after {
-    content: '';
-    position: absolute;
-    top: 92px;
-    left: 48px;
-    right: 0;
-    bottom: 0;
-    width: calc(100% - 96px);
-    background: rgba(0,0,0,.5);
-    z-index: 2;
 }
 
 @media (max-width: 1024px) {
     .cover {
         padding: 92px 0 0;
-        height: 640px;
+        min-height: 640px;
     }
 
     .cover:hover::after {
@@ -35,13 +19,13 @@
 
 @media (max-width: 768px) {
     .cover {
-        height: 480px;
+        min-height: 480px;
     }
 }
 
 @media (max-width: 320px) {
     .cover {
         padding: 66px 0 0;
-        height: 200px;
+        min-height: 200px;
     }
 }

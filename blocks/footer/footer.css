@@ -2,7 +2,6 @@
     padding: 92px 48px 24px;
     display: flex;
     justify-content: space-between;
-    height: 18px;
 }
 
 @media (max-width: 768px) {
@@ -14,7 +13,6 @@
 @media (max-width: 720px) {
     .footer {
         padding-top: 66px;
-        height: 310px;
         flex-direction: column;
     }
 }
